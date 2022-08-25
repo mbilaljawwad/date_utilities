@@ -1,0 +1,22 @@
+{
+  "name": "date_utilities",
+  "version": "1.0.0",
+  "description": "TypeScript/JavaScript Date Utility Library",
+  "main": "src/index.ts",
+  "repository": "https://github.com/mbilaljawwad/date_utilities",
+  "author": "Muhammad Bilal Jawwad <bilal.jawwad@getmyboat.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.22.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {}
+}
